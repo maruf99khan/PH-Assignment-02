@@ -7,6 +7,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f4f4;
 }
+
+/* hero section  */
 nav {
   background-color: #1a0c30;
 }
@@ -198,6 +200,84 @@ nav {
     height: 730px;
 }
 
+
+
+
+/* hero section responsive */
+
+.hamburger{
+  display: none;
+}
+
+
+@media(max-width:576px) {
+  .hamburger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+  }
+
+  .hamburger> img{
+    width: 30px;
+    height: 30px;
+  }
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    border-bottom: 2px solid #412567;
+  }
+  .nav-links, .btn{
+    display: none;
+  }
+
+  .hero-circle{
+    left: 30.1%;
+    top: 33%;
+    height: 225px;
+    width: 225px;
+  }
+
+  .microphone{
+    height: 100px;
+    width: 70px;
+    top: 42.6%;
+    left: 43.6%;
+  }
+
+  .new{
+      left: 56%;
+      top: 33%;
+  }
+
+  .techwave{
+    left: 23%;
+  }
+
+  .hero-p{
+    left: 10%;
+    width: 85%;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .hero-btn{
+    top: 102%;
+  }
+
+  .blabla{
+    height: 1000px;
+    width: 100%;
+    border: 2px solid white;
+  }
+
+}
+
+
+/* about section */
+
 .parent-about{
   height: 730px;
   width: 100%;
@@ -263,3 +343,4 @@ nav {
   color: #00ff88;
   font-size: 37px;
 }
+
