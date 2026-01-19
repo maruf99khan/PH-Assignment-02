@@ -265,12 +265,12 @@ nav {
 
   .hero-btn{
     top: 102%;
+    
   }
 
   .blabla{
-    height: 1000px;
-    width: 100%;
-    border: 2px solid white;
+    height: 640px;
+    width: 100vw;
   }
 
 }
@@ -320,7 +320,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 125px;
-  margin: 100px;
+  margin-top: 100px;
   place-items: center;
 
 }
@@ -343,4 +343,37 @@ nav {
   color: #00ff88;
   font-size: 37px;
 }
+
+
+
+@media(max-width:576px){
+  .parent-about{
+    background-color:#130429;
+    height: fit-content;
+  }
+
+
+  .about-section>h1{
+    font-size: 45px;
+  }
+
+  .about-section>p{
+    width: 300px;
+    padding-bottom: 40px;
+  }
+
+
+  .about-items{
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 50px;
+  }
+
+}
+
+
+
+
+
 
